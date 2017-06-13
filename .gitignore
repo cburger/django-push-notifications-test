@@ -1,0 +1,25 @@
+syntax: glob
+
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__
+
+# distutils / setuptools
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+dev/
+
+# Bower packages
+src/project/static/bower_components/
+src/project/static_root
+src/project/static_media
+
+# Vagrant
+.vagrant/
+
+# coverage
+clover.xml
